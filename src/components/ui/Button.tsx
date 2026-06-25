@@ -72,10 +72,11 @@ export default function Button({
   );
 
   if (href) {
+    const isWhatsApp = href.includes("wa.me") || href.includes("whatsapp");
     return (
       <motion.a
         href={href}
-        target="_blank"
+        target={isWhatsApp ? "_self" : "_blank"}
         rel="noopener noreferrer"
         className={classes}
         whileHover={{ scale: 1.02 }}

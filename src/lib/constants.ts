@@ -5,7 +5,7 @@ export const CLINIC = {
   tagline: "Your Smile, Our Passion",
   description:
     "Premium dental care with cutting-edge technology and compassionate expertise. Experience world-class treatments in a comfortable, modern environment.",
-  phone: "+91 98765 43210",
+  phone: "+91 7489923699",
   email: "hello@dentcare.clinic",
   address: "123 Smile Avenue, Indiranagar, Bangalore, Karnataka 560038",
   whatsappNumber: "917489923699",

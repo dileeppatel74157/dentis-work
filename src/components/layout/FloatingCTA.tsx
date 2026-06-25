@@ -24,7 +24,7 @@ export default function FloatingCTA() {
       {/* WhatsApp Button */}
       <motion.a
         href={getWhatsAppLink("Hi, I'd like to know more about your dental services.")}
-        target="_blank"
+        target="_self"
         rel="noopener noreferrer"
         className="w-14 h-14 sm:w-16 sm:h-16 bg-whatsapp hover:bg-whatsapp-hover rounded-full flex items-center justify-center shadow-lg shadow-whatsapp/30 transition-all duration-300 hover:shadow-whatsapp/50"
         whileHover={{ scale: 1.1 }}

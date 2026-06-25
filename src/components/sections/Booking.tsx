@@ -111,7 +111,7 @@ export default function Booking() {
                   type="tel"
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 7489923699"
                   className={`w-full px-4 py-3 rounded-xl border ${
                     errors.phone ? "border-red-300 bg-red-50/50" : "border-border bg-white"
                   } focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all text-sm`}
